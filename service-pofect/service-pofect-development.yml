@@ -33,6 +33,10 @@ spring:
         jwt:
           issuer-uri: http://localhost:5555/realms/pofect-realm
           jwk-set-uri: ${spring.security.oauth2.resource-server.jwt.issuer-uri}/protocol/openid-connect/certs
+  # mongoDB - Atlas
+  data:
+    mongodb:
+      uri: mongodb+srv://pofect:pofect1!@pofect-mongodb.0tggaus.mongodb.net/pofect?retryWrites=true&w=majority
 
 
 logging:

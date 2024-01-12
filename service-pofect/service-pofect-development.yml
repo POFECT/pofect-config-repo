@@ -36,7 +36,7 @@ spring:
   # mongoDB - Atlas
   data:
     mongodb:
-      uri: mongodb+srv://pofect:pofect1!@pofect-mongodb.0tggaus.mongodb.net/pofect?retryWrites=true&w=majority
+      uri: '{cipher}AQA4Aav/4IAn/caU/77vWFpQJ4EHrt8QmilcABHSa3B9TlO3Js6feE3qiBzIGb7Ah+pIFNj/YALDqbuY/AJEsVbVQ99C4hkMFxV4GrIcDcs2LiwwZ4bcqYx18Frhb5h7oW3Hx47LCFp+7sj21616gzrOojMrMklNdWliHN8D4TZ6O3YTJTUcCY6MkxIQchcYjj8s3iDHIXt4vsgCCuXkrKSXU4xgtKXst+AJMVVb2zTLtNjAhK0Pc0edeoIjjSMXFmrZsjJPgNr35z4+YBnD5Gdho5WUuq0z6jQzrupCoP24c+q79CAP/Q9xNbBdt8yW3Rdeo3o7nckOI1vJnTgkyynUMIZHMZsiS6MS1eYn3wNfitZ4Xmx41vOgW7bYxqpuK3CuAc2tE1hMv0dJvhdQbGOWj7Sh1QA5T2el3PYb+9neSK6m6kXqtoqOfne5WBXb5yNJo2bASpGr5eD8pHrdP0iZaCJimQzH0kHz2IN9rNyAi0K2/9hWVQZcQ92E9HPeM/0='
 
 
 logging:

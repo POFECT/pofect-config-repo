@@ -25,11 +25,7 @@ spring:
       ddl-auto: update  # create
     show-sql: 'true'
   datasource:
-    # Local DB
-    # url: jdbc:mysql://localhost:3306/pofect?characterEncoding=UTF-8&serverTimezone=UTC
-    # username: pofect
-    # password: '{cipher}AQC+l9btAspdM5VOockNMY6DOGYRhreCCsojgEwV712uTFvTY8+4KWz02wRxfik8Xa7jv+eOlVF/xedaKKmE+eMaz+CgVSZzpW02WhAxQEf4VudWmV44FE71T2j5lvmrW1evSFz86gCy2kvspSrdbY0UJVfsLdnCZKTJiN4cMLh0+sht2fjUtQr+UNGP4VnRoF88y8ioPDMX62Swx76LFSWephwMt0dvM2UdpeS5SenyTupI7t0P0kJgIKBce2fUeoAXKODxRdz2m07pKTb2L09yuwMXlTKH2/pl0RNF9Dr0vMFbW8rw4faIKdCvVAq0z/pBJ+Fh5/p+tIb+0eL/+3dq2ZxXirotvukKOwM5UmFEGFkh2egG6OQj9EFi8t/O4Mw='
-    # RDS MySQL
+    # RDS - MySQL
     url: '{cipher}AQDMCdhvTGjeB0NYC7RAjWfCvNR1LK0qc1cwtiaiPcd35vQqRJd2nEFEursYm9azngVdv5bSULSNtTSIZ0AvSno2UprEJGCBCZHEXCND08VjZq4RwgVfCkta2wUbYkAjuAzFTBFykcXCsL66el4Jr/rEkAZtksF/BJKw/qa09afhipS33Vc3QUSHtEb+w8HpwXAWkMzyxF2YvsEZOHUr2r8+G83sRCfOlX0BWBrEIAriNFHTjTjRon9xudHvs6q2j7ntkwN/i+dl2mlEgXMYWpiUlW2qAl+wtkt0g//Ss+RIJH5ZlLn4/E1tRFrdHYW+N3T06DpU6Iu/Otr0zWUm34IiErU4lDOEFhYnrJ4FnGoisLk9Lf18Yt/hGaLiwiv4yAqj5n0FbtIbJ51TsfSS9Fpjgc53HnSNYSvCeX8EOWqrnO1XGx52t6ciLhVXOP35bHknYhum7M3/irkK2B19v7jy822my+8Qm3gLH9R24shZlzjaMf2voH4OTQFU5E1qcyqb98DvBJJd8GR/GfjjxPHIxTA/njprGv48hTRJtr47hQ=='
     username: pofect
     password: '{cipher}AQChXSsu3fVw7UsLkUNWS4nwTYUIdYkzG6tIzBX/uww/aRCFMZghBEHsDtNFwZtMLzeUu6lERs0iNUungWxu5mNfAX0Dar5TbPOvJhuHLj4u3GnUppPoLl2QnT6aTblM97LdRYs19BxFB8FSsgSHrjH8CsZZIk1q+xjoAFgA3eXCN4ob5NUAlxpZwbHnpAXMCglcz88QkJ8kMbNs1W+1dO/hGUhtDYGKG9K7h7A23RQ8ykCy56nKbr1XRjuozRte2lEyEPUqGT8nTf1T8NWbIFUlsmj/q8tZgY4nsvyll/k2zunOAxEBEJhwg1FJqqXgy8JQ+eU89B0NDTrD3WskxCglIAFjzQgA4Fa8hwhp+qC8qUnnmCPJLQ6cmsSNhrWdAw8='
@@ -42,6 +38,12 @@ spring:
         jwt:
           issuer-uri: http://localhost:5555/realms/pofect-realm
           jwk-set-uri: ${spring.security.oauth2.resource-server.jwt.issuer-uri}/protocol/openid-connect/certs
+   # mongoDB - Atlas
+  data:
+    mongodb:
+      uri: '{cipher}AQA4Aav/4IAn/caU/77vWFpQJ4EHrt8QmilcABHSa3B9TlO3Js6feE3qiBzIGb7Ah+pIFNj/YALDqbuY/AJEsVbVQ99C4hkMFxV4GrIcDcs2LiwwZ4bcqYx18Frhb5h7oW3Hx47LCFp+7sj21616gzrOojMrMklNdWliHN8D4TZ6O3YTJTUcCY6MkxIQchcYjj8s3iDHIXt4vsgCCuXkrKSXU4xgtKXst+AJMVVb2zTLtNjAhK0Pc0edeoIjjSMXFmrZsjJPgNr35z4+YBnD5Gdho5WUuq0z6jQzrupCoP24c+q79CAP/Q9xNbBdt8yW3Rdeo3o7nckOI1vJnTgkyynUMIZHMZsiS6MS1eYn3wNfitZ4Xmx41vOgW7bYxqpuK3CuAc2tE1hMv0dJvhdQbGOWj7Sh1QA5T2el3PYb+9neSK6m6kXqtoqOfne5WBXb5yNJo2bASpGr5eD8pHrdP0iZaCJimQzH0kHz2IN9rNyAi0K2/9hWVQZcQ92E9HPeM/0='
+
+
 
 
 logging:

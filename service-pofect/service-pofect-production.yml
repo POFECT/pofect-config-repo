@@ -1,7 +1,7 @@
-spring:
-   config:
-      activate:
-         on-profile: production
+# spring:
+#    config:
+#       activate:
+#          on-profile: production
          
 server:
   port: '8080'

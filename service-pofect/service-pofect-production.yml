@@ -1,14 +1,9 @@
-# spring:
-#    config:
-#       activate:
-#          on-profile: production
-         
 server:
   port: '8080'
   servlet:
     context-path: /api
 #
-# development configuration
+# production configuration
 #
 spring:
   devtools:
@@ -29,9 +24,6 @@ spring:
     url: '{cipher}AQDMCdhvTGjeB0NYC7RAjWfCvNR1LK0qc1cwtiaiPcd35vQqRJd2nEFEursYm9azngVdv5bSULSNtTSIZ0AvSno2UprEJGCBCZHEXCND08VjZq4RwgVfCkta2wUbYkAjuAzFTBFykcXCsL66el4Jr/rEkAZtksF/BJKw/qa09afhipS33Vc3QUSHtEb+w8HpwXAWkMzyxF2YvsEZOHUr2r8+G83sRCfOlX0BWBrEIAriNFHTjTjRon9xudHvs6q2j7ntkwN/i+dl2mlEgXMYWpiUlW2qAl+wtkt0g//Ss+RIJH5ZlLn4/E1tRFrdHYW+N3T06DpU6Iu/Otr0zWUm34IiErU4lDOEFhYnrJ4FnGoisLk9Lf18Yt/hGaLiwiv4yAqj5n0FbtIbJ51TsfSS9Fpjgc53HnSNYSvCeX8EOWqrnO1XGx52t6ciLhVXOP35bHknYhum7M3/irkK2B19v7jy822my+8Qm3gLH9R24shZlzjaMf2voH4OTQFU5E1qcyqb98DvBJJd8GR/GfjjxPHIxTA/njprGv48hTRJtr47hQ=='
     username: pofect
     password: '{cipher}AQChXSsu3fVw7UsLkUNWS4nwTYUIdYkzG6tIzBX/uww/aRCFMZghBEHsDtNFwZtMLzeUu6lERs0iNUungWxu5mNfAX0Dar5TbPOvJhuHLj4u3GnUppPoLl2QnT6aTblM97LdRYs19BxFB8FSsgSHrjH8CsZZIk1q+xjoAFgA3eXCN4ob5NUAlxpZwbHnpAXMCglcz88QkJ8kMbNs1W+1dO/hGUhtDYGKG9K7h7A23RQ8ykCy56nKbr1XRjuozRte2lEyEPUqGT8nTf1T8NWbIFUlsmj/q8tZgY4nsvyll/k2zunOAxEBEJhwg1FJqqXgy8JQ+eU89B0NDTrD3WskxCglIAFjzQgA4Fa8hwhp+qC8qUnnmCPJLQ6cmsSNhrWdAw8='
-    # url: jdbc:mysql://pofect-database.c4jotwudvoiz.ap-northeast-2.rds.amazonaws.com:3306/pofect?characterEncoding=UTF-8&serverTimezone=UTC
-    # username: pofect
-    # password: 2wh1234!!
     hikari:
       minimum-idle: 10
       maximum-pool-size: 20
@@ -44,7 +36,6 @@ spring:
    # mongoDB - Atlas
   data:
     mongodb:
-      # uri: mongodb+srv://pofect:pofect1!@pofect-mongodb.0tggaus.mongodb.net/pofect?retryWrites=true&w=majority
       uri: '{cipher}AQA4Aav/4IAn/caU/77vWFpQJ4EHrt8QmilcABHSa3B9TlO3Js6feE3qiBzIGb7Ah+pIFNj/YALDqbuY/AJEsVbVQ99C4hkMFxV4GrIcDcs2LiwwZ4bcqYx18Frhb5h7oW3Hx47LCFp+7sj21616gzrOojMrMklNdWliHN8D4TZ6O3YTJTUcCY6MkxIQchcYjj8s3iDHIXt4vsgCCuXkrKSXU4xgtKXst+AJMVVb2zTLtNjAhK0Pc0edeoIjjSMXFmrZsjJPgNr35z4+YBnD5Gdho5WUuq0z6jQzrupCoP24c+q79CAP/Q9xNbBdt8yW3Rdeo3o7nckOI1vJnTgkyynUMIZHMZsiS6MS1eYn3wNfitZ4Xmx41vOgW7bYxqpuK3CuAc2tE1hMv0dJvhdQbGOWj7Sh1QA5T2el3PYb+9neSK6m6kXqtoqOfne5WBXb5yNJo2bASpGr5eD8pHrdP0iZaCJimQzH0kHz2IN9rNyAi0K2/9hWVQZcQ92E9HPeM/0='
 
 

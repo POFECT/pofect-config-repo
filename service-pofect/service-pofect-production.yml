@@ -32,9 +32,9 @@ spring:
     # url: '{cipher}AQDMCdhvTGjeB0NYC7RAjWfCvNR1LK0qc1cwtiaiPcd35vQqRJd2nEFEursYm9azngVdv5bSULSNtTSIZ0AvSno2UprEJGCBCZHEXCND08VjZq4RwgVfCkta2wUbYkAjuAzFTBFykcXCsL66el4Jr/rEkAZtksF/BJKw/qa09afhipS33Vc3QUSHtEb+w8HpwXAWkMzyxF2YvsEZOHUr2r8+G83sRCfOlX0BWBrEIAriNFHTjTjRon9xudHvs6q2j7ntkwN/i+dl2mlEgXMYWpiUlW2qAl+wtkt0g//Ss+RIJH5ZlLn4/E1tRFrdHYW+N3T06DpU6Iu/Otr0zWUm34IiErU4lDOEFhYnrJ4FnGoisLk9Lf18Yt/hGaLiwiv4yAqj5n0FbtIbJ51TsfSS9Fpjgc53HnSNYSvCeX8EOWqrnO1XGx52t6ciLhVXOP35bHknYhum7M3/irkK2B19v7jy822my+8Qm3gLH9R24shZlzjaMf2voH4OTQFU5E1qcyqb98DvBJJd8GR/GfjjxPHIxTA/njprGv48hTRJtr47hQ=='
     # username: pofect
     # password: '{cipher}AQCSA0rRCM47HNSs74fdY2C0mznb/A8I6Bzd2F6wFdIDE33ViWmlO6XjZ5Ob/yYUxtqfXOMHgQWwUNf5jR1Mjm8vaEhqU32QbFXNzynFtWWrYg+s4a1j8NhWIGV+XK7tAw31DvDhS7nCXGtvQ0NlnwYAhK5bdFZuA3i46F0satRqPD+hF1+OuZbgg8kHrQNfIedPSLwo3VjYvSSc66tCRS4cL55T/DWHyUsmkeSOqGcF7edQBvkcKHpYOcQMgBm+EvZDtOFu0Q3TSXwbXuDR4iRWUCTVg8/NJTmwM2p7Ig9SGyPGZLeJHqZAkynsmCORRycjWra4aYVpJiPFx5qA2Q4n+OhyRodFCoBZwXhiDUwK5ZIruqRd2j0rqpj69Cci4Mcwq4gvDGeOMW1AgYgvAp9EXCAk45pkX/lk3pia+hk1o61lHif0cSk6xAPC97JdVW7/Mg3lc+Dm+2azq2P6ImPAPu6Y+p8DhYwDoIDeF1+lCYB5lig1IohRF9m7N5ESMCINOw8jDGZCvbCdzl9NzX5YZ4RxezvaBDNLqvJCBwrBKQ=='
-    hikari:
-      minimum-idle: 10
-      maximum-pool-size: 20
+    # hikari:
+    #   minimum-idle: 10
+    #   maximum-pool-size: 20
   security:
     oauth2:
       resourceserver:

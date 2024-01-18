@@ -31,7 +31,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://localhost:5555/realms/pofect-realm
+          issuer-uri: http://52.79.114.216:5555/realms/pofect-realm
           jwk-set-uri: ${spring.security.oauth2.resource-server.jwt.issuer-uri}/protocol/openid-connect/certs
    # mongoDB - Atlas
   data:

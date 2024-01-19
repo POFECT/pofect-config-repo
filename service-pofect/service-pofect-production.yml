@@ -48,9 +48,9 @@ logging:
 eureka:
    instance:
       preferIpAddress: true
-      ipAddress: 52.79.114.216
+      ipAddress: 13.124.11.249
    client:
       fetchRegistry: true
       registerWithEureka: true
       serviceUrl:
-         defaultZone: http://52.79.114.216:8761/eureka
+         defaultZone: https://eureka.pofect.store/eureka

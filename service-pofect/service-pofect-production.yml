@@ -48,6 +48,7 @@ logging:
 eureka:
    instance:
       preferIpAddress: true
+      ipAddress: 52.79.114.216
    client:
       fetchRegistry: true
       registerWithEureka: true

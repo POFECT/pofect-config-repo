@@ -1,3 +1,10 @@
+server:
+  port: '5555'
+  servlet:
+    context-path: /
+#
+# production configuration
+#
 spring:
   datasource:
     # RDS
